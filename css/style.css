@@ -1,0 +1,306 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+
+
+    font-family: 'Neucha', cursive;
+
+}
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #B5B5B5;
+    transition: all 1s;
+    font-size: 50px;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color:activeborder;
+} 
+
+
+.header{
+    background-image: url("../imges/bulldozer-1956461_1920.jpg");
+    background-attachment: fixed;
+    height: 800px;
+}
+h2{
+    padding-bottom: 40px;
+}
+.over-lay{
+    background-color: rgba(0,0,20,.5);
+     height: 800px;
+}
+.logo{
+    text-align: center;
+    line-height: 45px;
+}
+
+.desc{
+    font-size: 50px;
+}
+.desc{
+    color: #fff;
+}
+
+p{
+    font-size: 25px;
+}
+.header-container{
+    padding: 50px;
+}
+h2:hover{
+        box-shadow: 10px 10px 5px #888888;
+
+}
+.hover-cont{
+            box-shadow: 5px 5px 5px #888888;
+        transition: all 1s;
+
+
+}
+.hover-cont:hover{
+            box-shadow: 10px 10px 5px  #888888;
+    transition: all 1s;
+
+}
+
+
+.ic{
+    padding-left: 50px;
+        padding-bottom:65px;
+}
+
+
+
+/*-----------------------------------------------products------------------------------ ----------*/
+.pp{
+    color: #000000;
+}
+section{
+
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.plus{
+    color:#fff ;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 800;
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #37a33f;
+    background-color: #37a33f;
+    position: relative;
+    top: -5px;
+}
+.goods{
+    color: aliceblue;
+    padding: 12px;
+    background-color:#337ab7;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.bar{
+    padding-bottom: 10px;
+}
+.www{
+    line-height: 65px;
+}
+
+.button{
+    padding: 10px 10px;
+    background-color: #37a33f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+        transition: all 1s;
+
+}
+.button:hover{
+    padding:12px 15px;
+    transition: all 1s;
+    background-color: #0f6115;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/*---------------------------------------------face toggle------------------------------------*/
+       label{
+            font-size: 15px;
+        }
+        .not-active {
+   pointer-events: none;
+   cursor:not-allowed;
+}
+  #page
+  {
+      clear:both;
+      margin-left: 500px;
+      
+  }
+  .pager
+  {
+      
+      display:inline-block;
+      
+  }
+  #f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 250px;
+  height: 320px;;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color:forestgreen;
+}
+
+
+/*-------------------------------about--------------------------------------------------*/
+
+.about{
+    padding-left: 12px;
+    background-image: url(../imges/barrel.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: azure;
+    padding: 120px 0px;
+}
+
+
+/* ========= Counter ============= */
+.counter {
+    background-image: url("../imges/statisticss.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+    font-weight: 800;
+}
+.counter-overlay {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.counter-num{
+    color: aliceblue;
+}
+.counter-item i {
+    color: #fff;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+/*-------------------------more details-----------------------------------*/
+
+
+.more-info {
+    color: white;
+    background-image: url("../imges/statisticss.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+    font-weight: 800;
+}
+
+
+
+/*---------------------------------------------statistics------------------------------------*/
+
+
+
+
+
+
+
